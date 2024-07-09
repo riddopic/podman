@@ -2,3 +2,4 @@
 
 # use md instead of rst
 myst_parser
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
