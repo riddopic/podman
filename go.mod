@@ -1,6 +1,6 @@
 module github.com/containers/podman/v4
 
-go 1.17
+go 1.23.0
 
 require (
 	github.com/BurntSushi/toml v1.2.0
@@ -61,7 +61,7 @@ require (
 	github.com/vbauerster/mpb/v7 v7.5.3
 	github.com/vishvananda/netlink v1.1.1-0.20220115184804-dd687eb2f2d4
 	go.etcd.io/bbolt v1.3.6
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
+	golang.org/x/sync v0.15.0
 	golang.org/x/sys v0.0.0-20220909162455-aba9fc2a8ff2
 	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467
 	golang.org/x/text v0.3.7
