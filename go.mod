@@ -1,6 +1,6 @@
 module github.com/containers/podman/v4
 
-go 1.17
+go 1.22
 
 require (
 	github.com/BurntSushi/toml v1.2.0
@@ -65,7 +65,7 @@ require (
 	golang.org/x/sys v0.0.0-20220909162455-aba9fc2a8ff2
 	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467
 	golang.org/x/text v0.3.7
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.36.6
 	gopkg.in/inf.v0 v0.9.1
 	gopkg.in/yaml.v3 v3.0.1
 )
